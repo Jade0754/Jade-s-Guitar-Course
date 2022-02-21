@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/menu.css");
+
+
+
+body { 
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	margin: 0px;
+	text-align: center;
+	}
+
+
+h1,h2,h3 {
+font-family: font-family: 'Dosis', sans-serif;
+font-weight: bold;
+
+}
+
+a {
+	text-decoration: none ;
+  color: red;
+}
+
+
+.btn-blue: hover{
+  color: orange;
+}
+
+
+
+nav {
+                width: 100%;
+                background-color: black;
+}
+
+nav ul{
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+}
+
+nav li{
+                list-style-type: none;
+                float: left;
+
+}
+
+nav a{
+                display: inline-block;
+                text-decoration: none;
+                padding: 20px 30px;
+                color: white;
+}
+
+nav li:hover a{
+                padding: 15px 30px 20px 30px;
+}
+
+
+
